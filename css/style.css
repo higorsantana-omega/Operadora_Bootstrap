@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f4f2ec;
+    font-family: Rubik, Arial, sans-serif;
+}
+
+/* a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+} */
+
+#container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.nav-geral{
+    background: #6495ED;
+    color: #fff;
+}
+
+.nav-geral a{
+    color: white;
+}
+
+.nav-geral a:hover{
+    color: #f4f2ec;
+}
+
+#opcoes_voo{
+    background: #F5F5F5;
+}
+
+/* #header_container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#header_principal{
+    background: #fff;
+} */
+
+#logo h1{
+    float: left;
+}
+
+#logo a{
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin-top: -32px;
+    text-indent: -9999px;
+    background: url(../imgs/logo/128x128.png) no-repeat;
+}
+
+#login-ajuda ul{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#login-ajuda ul li{
+    float: left;
+}
+
+#login-ajuda ul li a{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #444444;
+}
+
+#login-ajuda ul li a:hover{
+    color: #2D51A3;
+}
+
+.ajuda{
+    padding: 10px 0 10px 30px;
+    background: url(../imgs/icons/information2.png) no-repeat left center;
+}
+
+#navegacao_principal{
+    clear: both;
+}
+
+#navegacao_principal ul li{
+    display: inline-block;
+    margin: 0 40px 0 20px;
+    padding-bottom: 15px;
+}
+
+#navegacao_principal ul li a{
+    color: #888;
+    padding-bottom: 15px;
+}
+
+#navegacao_principal ul li a:hover{
+    color: #2d51a3;
+}
+
+#navegacao_principal ul li:hover{
+    border-bottom: 1px solid #2d51a3;
+}
+
+.img_hospedagem{
+    background: url(../imgs/icons/hospedagem.png) no-repeat center left;
+    padding: 20px 0 30px 33px;
+}
+
+.img_voo{
+    background: url(../imgs/icons/airplane.png) no-repeat center left;
+    padding: 20px 0 30px 33px;
+}
+
+.img_pacote{
+    background: url(../imgs/icons/pacotes.png) no-repeat center left;
+    padding: 20px 0 30px 33px;
+}
+
+.img_carro{
+    background: url(../imgs/icons/car.png) no-repeat center left;
+    padding: 20px 0 30px 33px;
+}
+
+.atual{
+    border-bottom: 1px solid #2d51a3;
+}
+
+
+
+.marcador {
+    background: #fe9d9d;
+    border: 1px solid red;
+  }
+.marcador-container {
+    background: #5bf946;
+    border: 1px solid blue;
+}
